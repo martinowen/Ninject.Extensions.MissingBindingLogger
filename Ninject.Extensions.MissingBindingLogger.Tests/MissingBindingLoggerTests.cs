@@ -9,7 +9,7 @@
     [TestFixture]
     public class MissingBindingLoggerTests
     {
-        [TestFixtureSetUp]
+        [OneTimeSetUp]
         public void TestFixtureSetup()
         {
             var kernel = new StandardKernel();
